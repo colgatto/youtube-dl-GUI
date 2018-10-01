@@ -25,6 +25,7 @@ npm run release
 
 ### Work In Progress
  - playlist download
+ - download all channel's videos
  - chose between speed and quality
  - add subtitles
  - better download queue
