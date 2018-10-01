@@ -2,6 +2,8 @@
 
 Graphical interface for youtube-dl.exe made with electron and bootstrap 4
 
+![example image](https://i.imgur.com/8fGXskv.png)
+
 ### Required
  - [ffmpeg](https://www.ffmpeg.org/download.html) (only for mp3 format)
 
