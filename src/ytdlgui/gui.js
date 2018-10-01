@@ -30,7 +30,7 @@ export const generateForm = () => {
 		+ '			<textarea class="form-control" id="listUrl" placeholder="Youtube Url List" rows="5"></textarea>'
 		+ '		</div>'
 		+ '	</div>'
-		+ '	<div class="custom-file">Downloads direcotry: '
+		+ '	<div class="custom-file">Downloads directory: '
 		+ '		<input type="file" class="custom-file-input" id="directoryPicker" webkitdirectory>'
 		+ '		<label class="custom-file-label" id="directoryPickerLabel" for="directoryPicker">Choose file</label>'
 		+ '	</div>'
