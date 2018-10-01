@@ -12,13 +12,13 @@ make sure to add ffmpeg to your PATH
 
 ### Installation
 ```sh
-$ npm install
-$ npm start
+npm install
+npm start
 ```
 
 ### Building from source
 ```sh
-$ npm run release
+npm run release
 ```
 
 ### Work In Progress
