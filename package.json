@@ -3,6 +3,7 @@
 	"productName": "YouTube-dl-GUI",
 	"description": "GUI over youtube-dl",
 	"version": "0.0.1",
+	"author": "Colgatto",
 	"private": true,
 	"main": "app/background.js",
 	"build": {
@@ -19,7 +20,7 @@
 	"scripts": {
 		"postinstall": "electron-builder install-app-deps",
 		"start": "node build/start.js",
-		"release": "webpack --config=build/webpack.app.config.js --env=production && electron-builder"
+		"release": "webpack --config=build/webpack.app.config.js --env=production && electron-builder --publish never"
 	},
 	"dependencies": {
 		"bootstrap": "^4.1.3",
@@ -35,7 +36,7 @@
 		"babel-plugin-transform-object-rest-spread": "^7.0.0-beta.3",
 		"chai": "^4.1.0",
 		"css-loader": "^1.0.0",
-		"electron": "2.0.2",
+		"electron": "2.0.8",
 		"electron-builder": "^20.15.1",
 		"friendly-errors-webpack-plugin": "^1.7.0",
 		"source-map-support": "^0.5.6",
