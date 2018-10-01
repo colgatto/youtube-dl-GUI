@@ -6,6 +6,8 @@ Thumbs.db
 /dist
 /temp
 
+package-lock.json
+
 # ignore everything in 'app' folder what had been generated from 'src' folder
 /app/app.js
 /app/background.js
