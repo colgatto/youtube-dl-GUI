@@ -2,6 +2,8 @@ const path = require("path");
 const nodeExternals = require("webpack-node-externals");
 const FriendlyErrorsWebpackPlugin = require("friendly-errors-webpack-plugin");
 
+//const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+
 const translateEnvToMode = (env) => {
 	if (env === "production") {
 		return "production";
@@ -40,7 +42,8 @@ module.exports = env => {
 			]
 		},
 		plugins: [
-			new FriendlyErrorsWebpackPlugin({ clearConsole: env === "development" })
+			new FriendlyErrorsWebpackPlugin({ clearConsole: env === "development" }),
+			//new BundleAnalyzerPlugin()
 		]
 	};
 };
